@@ -10,8 +10,8 @@ export default function Card(props) {
     <div className='flex flex-col gap-5 '>
       <div>
         
-        <div className='absolute z-10 w-[140px] h-[140px] bg-violet-500 rounded-full left-10 -top-12'></div>
-        <img src={props.review.image} className=' absolute w-[140px] h-[140px] aspect-square rounded-full z-20 left-7 -top-12 '/>
+        <div className='absolute z-10 w-32 h-32 bg-violet-500 rounded-full left-10 -top-12'></div>
+        <img src={props.review.image} className=' absolute w-32 h-32  aspect-square rounded-full z-20 left-7 -top-12 '/>
 
       </div>
 

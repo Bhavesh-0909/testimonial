@@ -31,7 +31,7 @@ export default function Testimonial(props) {
 
   
   return (
-    <div className='bg-white relative shadow-sm rounded-lg w-[60%] h-[60%] flex flex-col text-center gap-3 px-20 py-2 hover:shadow-xl'>
+    <div className='bg-white relative shadow-sm rounded-lg w-[70%] min-w-[300px] h-[60%] flex flex-col text-center gap-3 px-20 py-2 hover:shadow-xl'>
         <Card review={reviews[index]}/>
         <div className='flex flex-col gap-4 items-center'>
           <div className='flex gap-5 justify-center'>
